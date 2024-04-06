@@ -1,0 +1,215 @@
+* {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.album {
+    border: 1px solid black;
+    margin: 5%;
+}
+
+.imagemdisco {
+    width: 40%;
+    margin: 10px;
+}
+
+.desc {
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.album:hover {
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    background-color: #272727;
+}
+
+.seccao {
+    background-color:#272727;
+    color:white;
+    padding: 10px;
+}
+
+div.navbar {
+    background-color: #272727;
+    overflow: hidden;
+}
+
+#botaosearch {
+    float: right;
+}
+
+.hlink {
+    float:left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 15px;   
+    border: none;
+    outline: none;
+    color:white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    text-decoration: underline;
+  
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  max-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #272727;
+  font-size: 12px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header {
+    margin: 5%;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1 fr 1fr;
+    background-color: #272727;
+}
+
+.fab, .fa-brands{
+    font-size:30px;
+    color:white;
+    }
+
+.redes-sociais{
+    text-align:center;
+    border-bottom: none;
+    padding-bottom: 20px;
+}
+
+i.fab.fa-instagram-square {
+    padding: 0 5px 0 10px;
+}
+
+i.fab.fa-twitter-square {
+    padding: 0 10px 0 5px;
+}
+
+#telefone, #mail, #morada{
+    display: inline-block;
+    width:25%;
+    padding: 0px 20px;
+}
+
+#mail{
+    border-right: 1px solid #272727;
+    border-left: 1px solid #272727;
+}
+
+.newsletter {
+    padding: 20px;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.redessociais h3 {
+    color: white;
+}
+
+#botaoenviar:hover, #botaoreset:hover {
+    background-color: #272727;
+    color: greenyellow
+}
+
+.fab:hover, .fa-brands:hover {
+    color: greenyellow;
+}
+
+span {
+    color: greenyellow;
+}
+
+.criador {
+    background-color: #272727;
+    font-size: 15px;
+    padding: 2px;
+    color: white;
+}
+
+.fas {
+    color: #272727;
+}
+
+@media (max-width:600px) {
+    .desc {
+        font-size: 7px;
+    }
+
+    form, .form1,.redessociais, .outros, .criador {
+        font-size: 7px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    h5 {
+        font-size: 7px;
+    }
+
+    p {
+        font-size: 7px;
+    }
+
+    #logobanda {
+        width: 30%;
+    }
+
+    .hlink, .dropdown .dropbtn {
+        font-size: 10px;
+    }
+
+    .dropdown-content {
+        font-size: 7px;
+    }
+}
